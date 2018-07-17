@@ -3,7 +3,20 @@
 
 
 ///// Common  /////
-
+#include <libopencm3/cm3/common.h>
+#include <libopencm3/cm3/cortex.h>
+#include <libopencm3/cm3/dwt.h>
+// fpb
+// itm
+#include <libopencm3/cm3/memorymap.h>
+#include <libopencm3/cm3/mpu.h>
+#include <libopencm3/cm3/nvic.h>
+#include <libopencm3/cm3/scb.h>
+#include <libopencm3/cm3/scs.h>
+#include <libopencm3/cm3/sync.h>
+#include <libopencm3/cm3/systick.h>
+// tpiu
+#include <libopencm3/cm3/vector.h>
 
 ///// STM32F1 /////
 

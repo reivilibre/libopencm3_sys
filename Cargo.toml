@@ -7,6 +7,11 @@ license = "LGPL-3"
 
 build = "build.rs"
 
+description = "Rust bindings to the libopencm3 library for Cortex-M microcontrollers. Currently STM32F1 only -- forks and contributions accepted to alleviate this."
+
+homepage = "https://gitlab.com/reivilibre/libopencm3_sys"
+repository = "https://gitlab.com/reivilibre/libopencm3_sys"
+
 [dependencies]
 
 

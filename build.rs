@@ -9,7 +9,9 @@ fn main() {
         .current_dir("libopencm3"));
 
     println!("cargo:rustc-link-search=libopencm3/lib");
-    println!("cargo:rustc-link-lib=static=libopencm3_stm32f1");
+    // println!("cargo:rustc-link-lib=static=libopencm3_stm32f1");
+    // You must remove the `lib` prefix; lib is part of the naming convention.
+    println!("cargo:rustc-link-lib=static=opencm3_stm32f1");
 
     let bindings = bindgen::Builder::default()
         .use_core() // nostd
