@@ -53,3 +53,17 @@
 // ...
 #include <libopencm3/stm32/usart.h>
 // wwdg marked as TODO upstream.
+
+
+/////  USB  /////
+// msc depends on the below file.
+#include <libopencm3/usb/usbd.h>
+
+#include <libopencm3/usb/audio.h>
+#include <libopencm3/usb/cdc.h>
+#include <libopencm3/usb/dfu.h>
+#include <libopencm3/usb/hid.h>
+#include <libopencm3/usb/midi.h>
+#include <libopencm3/usb/msc.h>
+// usbd moved higher
+#include <libopencm3/usb/usbstd.h>
