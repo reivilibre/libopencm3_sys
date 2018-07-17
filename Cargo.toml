@@ -1,6 +1,6 @@
 [package]
 name = "libopencm3_sys"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["libopencm3 Developers", "Olivier <olivier@librepush.net>"]
 # The licence of the project; inherits libopencm3's licence.
 license = "LGPL-3.0-or-later"
