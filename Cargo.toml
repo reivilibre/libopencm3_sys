@@ -3,7 +3,7 @@ name = "libopencm3_sys"
 version = "0.0.1"
 authors = ["libopencm3 Developers", "Olivier <olivier@librepush.net>"]
 # The licence of the project; inherits libopencm3's licence.
-license = "LGPL-3"
+license = "LGPL-3.0-or-later"
 
 build = "build.rs"
 
@@ -11,6 +11,16 @@ description = "Rust bindings to the libopencm3 library for Cortex-M microcontrol
 
 homepage = "https://gitlab.com/reivilibre/libopencm3_sys"
 repository = "https://gitlab.com/reivilibre/libopencm3_sys"
+readme = "README.md"
+
+keywords = ["embedded", "no-std", "stm32", "cortex-m", "arm"]
+
+categories = ["embedded", "no-std", "hardware-support"]
+
+
+[badges]
+
+
 
 [dependencies]
 
